@@ -1,0 +1,16 @@
+.form-select {
+    width: 300px; /* Adjust as needed */
+    margin: 0 auto;
+  }
+
+.d-flex{
+  width: 300px; /* Adjust as needed */
+  margin: 0 auto 15px;
+}
+.card{
+  width: 300px; /* Adjust as needed */
+  margin: 0 auto 15px;
+}
+.list-group{
+  margin: 0 auto 15px;
+}
