@@ -3,24 +3,24 @@ import { PrayerTimes } from '../types/prayerTimes';
 import { FaClock } from 'react-icons/fa';
 
 const Countdown: React.FC<{ prayerTimes: PrayerTimes }> = ({ prayerTimes }) => {
-  const [timeLeft, setTimeLeft] = useState<string>('');
-  const [nextPrayer, setNextPrayer] = useState<string>('');
+  // const [timeLeft, setTimeLeft] = useState<string>('');
+  // const [nextPrayer, setNextPrayer] = useState<string>('');
 
   useEffect(() => {
     if (!prayerTimes) return;
 
     const updateCountdown = () => {
-      const now = new Date();
+      // const now = new Date();
       const timings = prayerTimes.data.timings;
 
-      const prayerTimesArray = [
-        { name: 'Fajr', time: timings.Fajr },
-        { name: 'Sunrise', time: timings.Sunrise },
-        { name: 'Dhuhr', time: timings.Dhuhr },
-        { name: 'Asr', time: timings.Asr },
-        { name: 'Maghrib', time: timings.Maghrib },
-        { name: 'Isha', time: timings.Isha },
-      ];
+      // const prayerTimesArray = [
+      //   { name: 'Fajr', time: timings.Fajr },
+      //   { name: 'Sunrise', time: timings.Sunrise },
+      //   { name: 'Dhuhr', time: timings.Dhuhr },
+      //   { name: 'Asr', time: timings.Asr },
+      //   { name: 'Maghrib', time: timings.Maghrib },
+      //   { name: 'Isha', time: timings.Isha },
+      // ];
 
       // ... (rest of your countdown logic remains the same)
     };

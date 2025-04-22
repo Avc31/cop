@@ -4,7 +4,7 @@ import { Location } from './types/prayerTimes';
 import Header from './components/Header';
 import LocationSelector from './components/LocationSelector';
 import HijriDate from './components/HijriDate';
-import Countdown from './components/Countdown';
+// import Countdown from './components/Countdown';
 import PrayerCard from './components/PrayerCard';
 import { 
   FaSun,
@@ -54,7 +54,7 @@ const App: React.FC = () => {
           <>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
               <HijriDate prayerTimes={prayerTimes} />
-              <Countdown prayerTimes={prayerTimes} />
+              {/* <Countdown prayerTimes={prayerTimes} /> */}
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
