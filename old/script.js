@@ -1,12 +1,11 @@
 
-
 async function getPrayerTimes(city, school, method) {
   //const city = 'Vadodara'; // Replace with your desired city
   const country = 'India'; // Replace with your desired country
   //const method = 4; // Specify the calculation method (e.g., Umm Al-Qura University, Makkah)
-  console.log(city, country, method1.value, fiqhDropdown.value);
-  console.log(`https://api.aladhan.com/v1/timingsByCity?city=${city}&country=${country}&method=${method1.value}&school=${fiqhDropdown.value}`);
-  const url = `https://api.aladhan.com/v1/timingsByCity?city=${city}&country=${country}&method=${method1.value}&school=${fiqhDropdown.value}`;
+  console.log(city.value, country, method1.value, fiqhDropdown.value);
+  console.log(`https://api.aladhan.com/v1/timingsByCity?city=${city.value}&country=${country}&method=${method1.value}&school=${fiqhDropdown.value}`);
+  const url = `https://api.aladhan.com/v1/timingsByCity?city=${city.value}&country=${country}&method=${method1.value}&school=${fiqhDropdown.value}`;
 
   try {
     const response = await fetch(url); 0
@@ -89,7 +88,7 @@ method1.addEventListener('change', function () {
   console.log(method1.value)
 });
 
-getPrayerTimes("vadodara", fiqhDropdown.value, method1.value);
+getPrayerTimes(city.value, fiqhDropdown.value, method1.value);
 
 
 const updateClock = () => {
@@ -111,7 +110,5 @@ updateClock();
 
 // Update the clock every second
 setInterval(updateClock, 1000);
-const prayertime = getPrayerTimes();
 
-export {prayertime}
 

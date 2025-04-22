@@ -1,0 +1,115 @@
+.container{
+  display: flex;
+  justify-content: flex-end;
+  align-content: space-around;
+  flex-direction: column;
+}
+.card{
+  width: 300px; /* Adjust as needed */
+  margin: 0 auto 15px;
+}
+.list-group{
+  margin: 0 auto 15px;
+}
+#fiqhDropdown{
+  margin-top: 35px;
+}
+.boxes{
+  background-color: rgb(177, 177, 177);
+  color: black;
+  border: 5px;
+  border-radius: 20px ;
+  font-size: 30px;
+  /* margin-right: 10px; */
+}
+.row {
+  display: flex;
+  gap: 20px; /* Adjust as needed */
+}
+
+
+.bg_icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 0
+}
+
+.bg_icons li {
+  background: linear-gradient(110.79deg,rgba(255,255,255,.8) -2.59%,rgba(255,255,255,.6) 95.44%);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  height: 5em;
+  width: 10em;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin: 6px
+}
+
+.bg_icons li:hover {
+  background: #7CB67D
+}
+
+.bg_icons li:hover h6,.bg_icons li:hover p {
+  color: #fff
+}
+
+
+
+/* .container2{
+  background-color: #adb67c;
+  padding: 20px;
+  border-radius: 10px;
+  backdrop-filter: blur(5px);
+} */
+body{
+  /* background-image: url("assets/bg2.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat; */
+  background: linear-gradient(110.79deg,rgba(68, 58, 58, 0.8) -2.59%,rgba(255,255,255,.6) 95.44%);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+.card{
+  margin-top: 20px;
+  /* background: linear-gradient(110.79deg,rgba(255,255,255,.8) -2.59%,rgba(255,255,255,.6) 95.44%);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 30px; */
+  /* height: 136px;
+  width: 236px; */
+  /* display: inline-flex;
+  align-items: center;
+  justify-content: center; */
+  background-color: transparent;
+  color: white;
+  font-size: 18px;
+  width: 19em;
+  border: 1px solid white;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    background-image: url("assets/bg1.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+}
+.selectform{
+  margin-bottom: 20px; ;
+}
+.navbar{
+  background: linear-gradient(110.79deg,rgba(255,255,255,.8) -2.59%,rgba(255,255,255,.6) 95.44%) !important;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+.form-select{
+  background: linear-gradient(110.79deg,rgba(255,255,255,.8) -2.59%,rgba(255,255,255,.6) 95.44%);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  margin: 2px;
+}
