@@ -7,12 +7,10 @@ import HijriDate from './components/HijriDate';
 import Countdown from './components/Countdown';
 import PrayerCard from './components/PrayerCard';
 import { 
-  FaMosque,
   FaSun,
   FaCloudSun,
   FaCloudMoon,
   FaMoon,
-  FaPrayingHands
 } from 'react-icons/fa';
 
 const App: React.FC = () => {
