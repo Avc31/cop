@@ -1,4 +1,3 @@
-import React from 'react';
 import { FaMosque } from 'react-icons/fa';
 
 const Header = () => {
